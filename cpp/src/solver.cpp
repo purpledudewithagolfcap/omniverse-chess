@@ -15,20 +15,20 @@
 
 // Constants
 const int INF = std::numeric_limits<int>::max();
-const int MAX_DEPTH_HARD = 12;             // Maximum search depth for hard mode
-const int MAX_QUIESCENCE_DEPTH = 8;        // Max depth for quiescence search
-const int NULL_MOVE_REDUCTION = 2;         // Reduction for null move pruning
-const int LATE_MOVE_REDUCTION = 1;         // Reduction for late move reduction
-const int RAZORING_DEPTH = 2;              // Depth to apply razoring
-const int RAZORING_MARGIN = 200;           // Margin for razoring
-const int LEVEL_CONTROL_WEIGHT = 10;       // Weight for level control
-const int SPACE_CONTROL_WEIGHT = 5;        // Weight for space control
-const int OUTPOST_BONUS = 20;              // Bonus for outposts
-const int PIECE_COORDINATION_BONUS = 15;   // Bonus for piece coordination
-const int THREAT_WEIGHT = 30;              // Weight for threat evaluation
-const int STABILITY_THRESHOLD = 50;        // Threshold for iterative deepening stability
+const int MAX_DEPTH_HARD = 20;  // your fucked
+const int MAX_QUIESCENCE_DEPTH = 13;       
+const int NULL_MOVE_REDUCTION = 2;      
+const int LATE_MOVE_REDUCTION = 1;    
+const int RAZORING_DEPTH = 2;         
+const int RAZORING_MARGIN = 200;        
+const int LEVEL_CONTROL_WEIGHT = 10;   
+const int SPACE_CONTROL_WEIGHT = 5;        
+const int OUTPOST_BONUS = 20;              
+const int PIECE_COORDINATION_BONUS = 15;   
+const int THREAT_WEIGHT = 30;               
+const int STABILITY_THRESHOLD = 50;        
 const int NULL_MOVE_MARGIN = 100;
-const long MAX_SEARCH_TIME = 1000; // Maximum search time in milliseconds
+const long MAX_SEARCH_TIME = 5000; 
 
 // Enums
 enum EvaluationFlags {
